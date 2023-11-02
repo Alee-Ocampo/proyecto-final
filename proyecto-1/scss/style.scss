@@ -1,0 +1,77 @@
+@import "reset";
+
+body{background-color:$bg-principal;}
+
+@import "header";
+
+@import "navbar";
+
+h4 {
+    margin-top: 70px;
+    height: 200px;
+    position: relative;
+    @include aling
+    }
+
+@import "carta";
+
+h3{color: red;}
+
+.grids{
+    display: grid;
+}
+
+p {text-align: center;
+    color: $color-secuandario}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 450px 450px;
+    justify-content: center;
+    justify-items: center;}
+
+.foo-t {color: white;}
+.icon-uno {text-align: right;}
+
+@import "h6";
+
+.gift { text-align: center;
+    color: red;}
+
+
+.pedidos-ya {
+    display: block;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 5px 20px}
+
+.nos-otros {color: $color-principal;
+padding-left: 40px;
+text-align: center;}
+
+.text {text-align: justify;}
+.text2 {text-align: justify;}
+
+@import "nosotros";
+
+form{margin-top: 20px;}
+label{display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.contac-h1{display: block;
+color: red;}
+.saber-de {color: $color-principal}
+.dt-p {color: white;}
+ilabel
+
+.reserva-5{text-decoration: underline;
+color: $color-secuandario}
+
+.reser-2 {color: white;}
+
+@import "./layout/media/media768";
+@import "./layout/media/media320";
